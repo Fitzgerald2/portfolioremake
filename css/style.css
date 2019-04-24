@@ -44,9 +44,5 @@ body {
 }
 
 .container {
-  margin: 0;
-  padding: 10px;
-  width: 100%
-}
-
-.colum {}
+  display: flex;
+  flex-grow: 40%;
