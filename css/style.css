@@ -45,4 +45,27 @@ body {
 
 .container {
   display: flex;
-  flex-grow: 40%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.container img {
+  padding-top: 40px;
+  margin: 25px 25px;
+}
+
+.munch:hover {
+  opacity: 0.2;
+}
+
+.granula:hover {
+  opacity: 0.2;
+}
+
+.laststudio:hover {
+  opacity: 0.2;
+}
+
+.java-slider:hover {
+  opacity: 0.2;
+}
