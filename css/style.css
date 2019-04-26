@@ -55,17 +55,38 @@ body {
 }
 
 .munch:hover {
+  display: flex;
+  text-align: center;
   opacity: 0.2;
+  content: attr(data-hover);
+}
+
+.munch:hover:after {
+  color: white;
+  opacity: 1;
+  content: attr(data-hover);
 }
 
 .granula:hover {
   opacity: 0.2;
 }
 
+.granula:hover:after {
+  content: attr(data-hover);
+}
+
 .laststudio:hover {
   opacity: 0.2;
 }
 
+.laststudio:hover:after {
+  content: attr(data-hover);
+}
+
 .java-slider:hover {
   opacity: 0.2;
+}
+
+.hava-slider:hover:after {
+  content: attr(data-hover);
 }
